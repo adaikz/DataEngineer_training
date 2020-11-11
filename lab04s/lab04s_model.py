@@ -1,0 +1,9 @@
+train_schema = StructType( fields = [...
+test_schema =
+class Url2DomainTransformer()
+label_strings = [..]
+pipeline = Pipeline(stages=[...
+pipeline_crossval = CrossValidator(...
+input_cols = ["visits"]
+label_cols = ["gender_age"]
+output_cols = ["uid", "gender_age", "probability"]
